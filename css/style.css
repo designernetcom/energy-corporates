@@ -246,7 +246,7 @@ p {
 hr {
   border-bottom: 1px solid #eceff8;
   border-top: 0 none;
-  margin: 30px 0;
+  margin: 0px 0px 20px;
   padding: 0;
 }
 
@@ -318,7 +318,7 @@ label {
   letter-spacing: 0;
   line-height: 1;
   margin-bottom: 0;
-  padding: 18px 26px;
+  padding: 15px 26px;
   text-align: center;
   text-transform: unset;
   touch-action: manipulation;
@@ -2453,14 +2453,14 @@ label {
 }
 
 .s-about-content p {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .s-about-content .txt-clr {
   color: #4e4e4e;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 17px;
+  line-height: 28px;
 }
 
 .about-content strong {
@@ -2845,7 +2845,7 @@ section:hover .section-title h2::before {
 .services-box {
   border-radius: 10px;
   background-color: #fff;
-  padding: 0px 30px;
+  padding: 0px 0px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 9px;
   position: relative;
   border-bottom: 5px solid #f01a1c;
@@ -2875,7 +2875,7 @@ section:hover .section-title h2::before {
   font-size: 25px;
   font-weight: 600;
   color: #06070B;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 
 }
 
@@ -5210,7 +5210,7 @@ section:hover .section-title h2::before {
 }
 
 .s-about-content h2 {
-  font-size: 45px;
+  font-size: 33px;
   margin-bottom: 20px;
 }
 
@@ -5787,14 +5787,14 @@ section:hover .section-title h2::before {
 
 .event-area-content h3 {
   color: #06070B;
-  font-size: 32px;
-  font-weight: 500;
-  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .event-area-content p {
   opacity: 1;
-  font-size: 19px;
+  font-size: 18px;
   color: #000;
 }
 
@@ -8698,7 +8698,7 @@ section:hover .section-title h2::before {
 
 .f-contact li {
   float: left;
-  margin-bottom: 15px !important;
+  margin-bottom: 18px !important;
   width: 100%;
   display: inline-flex;
   /* align-items: center; */
@@ -11432,7 +11432,7 @@ p.checkout-coupon input[type="text"] {
   /* display: inline-flex;
   align-items: center;
   gap: 30px; */
-  padding: 30px 30px 0px;
+  padding: 30px 30px 15px;
   height: 100%;
 }
 
@@ -11818,6 +11818,7 @@ p.checkout-coupon input[type="text"] {
   padding-left: 25px;
   margin-bottom: 10px;
   color: #000;
+  font-size: 17px;
 }
 
 .list-style-one li::before {
@@ -13292,7 +13293,7 @@ p.checkout-coupon input[type="text"] {
 
 .galler-box .text h3 a {
   color: #fff;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .galler-box .text h3 a:hover {
@@ -15680,3 +15681,103 @@ blockquote cite {
 .cicon img{
   padding: 5px;
 }
+.sr-contner .text{
+  padding-left: 20px;
+}
+
+.sticky-icon  {
+  z-index: 11111;
+  position: fixed;
+  top: 40%;
+  right: 0px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+}  
+.sticky-icon a  {
+	/* transform:translate(160px,0px); */
+	border-radius:50px 0px 0px 50px;
+	text-align:left;
+	margin:2px;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:4px;
+	font-size:18px;
+	font-family:'Oswald', sans-serif;
+	transition:all 0.8s;}
+.sticky-icon a:hover  {
+	color:#FFF;
+    /* transform: translate(55px,0px); */
+  }	
+.sticky-icon a:hover i  {
+	transform:rotate(360deg);}
+/*.search_icon a:hover i  {
+	transform:rotate(360deg);}*/
+.Facebook  {
+	background-color:#3b5998;
+	color:#FFF;}
+	
+.Whatsapp  {
+	background-color:green;
+	color:#FFF;}
+.Youtube  {
+	background-color:red;
+	color:#FFF;}
+	
+.Twitter  {
+	background-color:#0077B5;
+	color:#FFF;}
+	
+.Instagram  {
+    background: 
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), 
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%),
+    radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), 
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), 
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), 
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), 
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), 
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%);
+
+	color:#FFF;}
+	
+.Google  {
+	background-color:blue;
+	color:#FFF;}						
+.sticky-icon a i {
+	background-color: #FFF;
+    height: 33px;
+    width: 33px;
+    color: #3b5998;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    margin-right: 3px;
+    transition: all 0.5s;
+    margin-left: 1px;
+}
+.sticky-icon a i.fa-facebook-f  {
+	background-color:#FFF;
+	color:#3b5998;}
+	
+.sticky-icon a i.fa-google-plus-g  {
+	background-color:#FFF;
+	color:#d34836;}
+	
+.sticky-icon a i.fa-instagram  {
+	background-color:#FFF;
+	color:#c63287;}
+	.sticky-icon a i.fa-linkedin {
+	background-color:#FFF;
+	color:#0077B5;}
+	
+.sticky-icon a i.fa-whatsapp  {
+	background-color:#fff;
+	color:green;}
+.sticky-icon a i.fa-youtube  {
+	background-color:#fff;
+	color:red;}
+	
+.sticky-icon a i.fa-phone  {
+	background-color:#fff;
+	color:blue;}
